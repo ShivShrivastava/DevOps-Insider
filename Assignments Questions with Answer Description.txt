@@ -1,0 +1,16 @@
+Assignment: Installing IIS Web Server and Deploying StreamFlix Application
+
+Question 2: Describe the purpose of enabling specific features such as ASP.NET, ISAPI Extensions, and Request Filtering when installing IIS.
+
+ASP.NET:
+This is a framework for building dynamic web applications using .NET languages, and enabling it on IIS allows the server to interpret and execute ASP.NET code, which is crucial for running most modern web applications developed with .NET. 
+
+ISAPI Extensions:
+ISAPI (Internet Server Application Programming Interface) allows developers to create custom modules that can interact with the IIS web server to perform additional tasks like authentication, logging, or content manipulation. 
+
+Request Filtering:
+This feature within IIS acts as a security layer, enabling you to define rules to block potentially harmful requests based on specific criteria like file extensions, URL patterns, or query strings, preventing unauthorized access to sensitive content. 
+
+Question 3: Why is it important to copy the application files to the IIS default directory (C:\inetpub\wwwroot)?
+
+Copying application files to the IIS default directory (C:\inetpub\wwwroot) is important because it allows the application to be mapped to the physical directory that contains its content:
