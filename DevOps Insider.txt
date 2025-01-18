@@ -1,3 +1,10 @@
 Github Repo Path
 
 https://github.com/devopsinsiders/azure-devsecops-batch-17
+
+-------------------------------------------------18 -01 -25
+
+Enter KGF is Authentication , meeting with Rocky in his living room is Authorization.
+
+Cloud owner give permissions...
+
