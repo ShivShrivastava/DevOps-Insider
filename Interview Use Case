@@ -1,0 +1,45 @@
+Interview Preparation Class1
+
+**Example 1: Aviation Industry DevOps Introduction**
+
+Hi, I’m Shiv, and I’ve been working in DevOps for the last 6 years. Currently, I am a part of DevOps Insiders, where we specialize in aviation-related projects.
+
+One of our major ongoing projects is with a European airline. They are looking to improve their operational efficiency by implementing a smart fleet management system.
+
+**The Requirement:**  
+The client has a fleet of aircraft spread across multiple airports worldwide. They want a centralized portal and mobile application where they can monitor key performance metrics, such as aircraft engine health, fuel consumption, real-time location data, and scheduled maintenance updates.
+
+The client already uses an IoT-based device in each aircraft, which continuously sends real-time data about the engine's performance, fuel levels, and other critical factors to the cloud.
+
+**Our Role:**  
+Our task is to consume that data from the IoT devices and display it in a unified dashboard. The dashboard should provide real-time insights, generate alerts for any anomalies (like high fuel consumption or engine inefficiencies), and even predict potential issues based on historical data.
+
+This system will not only improve operational efficiency but also reduce downtime by predicting maintenance needs before they occur.
+
+Our team consists of both developers and DevOps professionals. There are 6 frontend developers and 5 backend developers, while my role in the DevOps team is to ensure that the infrastructure is set up for smooth continuous integration and delivery (CI/CD). We manage the deployment architecture, ensuring scalability and security while optimizing for cost-efficiency.
+
+**Challenges We Faced:**  
+One of the main challenges was integrating the cloud infrastructure with multiple third-party APIs, ensuring the data from the IoT devices was real-time and properly handled for insights. Additionally, we had to make sure that the web portal could scale to accommodate data from hundreds of aircraft at once.
+
+Our DevOps team implemented automated deployment pipelines, with Docker containers for isolated environments, and Kubernetes for orchestration. This made it easy to manage updates and handle the scale of real-time data processing.
+
+* * *
+
+**Example 2: Aviation Industry Maintenance System**
+
+Hi, I’m Shiv, and I’ve been working in DevOps for the last 6 years. Currently, I am a part of DevOps Insiders. I specialize in deploying and managing cloud-based solutions, with a focus on the aviation sector.
+
+We recently worked with a US-based airline that operates a fleet of over 200 aircraft. Their goal was to build an integrated maintenance management system that could track and predict the health of their aircraft in real time.
+
+**The Requirement:**  
+The airline has onboard sensors on every aircraft that provide data about engine performance, aircraft weight, and fuel usage, all sent to the cloud. The company wanted a cloud-based application where maintenance teams could view the data, perform diagnostics, and generate maintenance reports.
+
+They also required predictive analytics to flag potential maintenance issues, ensuring that any aircraft scheduled for repairs would not experience unexpected breakdowns.
+
+**Our Role:**  
+We worked on creating a cloud-based solution where the real-time data from aircraft sensors was ingested and displayed on an intuitive web interface. The system also needed to generate predictive maintenance alerts when something seemed off (e.g., an aircraft engine running below optimal performance or an excessive fuel burn rate).
+
+The project involved multiple teams, including 5 frontend developers, 4 backend developers, and my role as part of the DevOps team. I was responsible for building and managing the deployment pipelines to ensure smooth updates and integration of new features, all while maintaining high levels of security for sensitive data.
+
+**Challenges:**  
+One of the challenges was handling the vast amount of data coming from each aircraft, as well as ensuring that the CI/CD pipeline could push out updates without disrupting real-time data collection. We used containerization with Docker to create consistent development and production environments and Kubernetes for scaling the application.
